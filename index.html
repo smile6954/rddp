@@ -250,11 +250,11 @@
 		<h1 class="footer_h2">family development</h1>
 		<div class="contacs_us">
 			<div class="feedback">
-				<form action="#">
+				<form id= "form" action="#">
 					<h4>заказать франшизу сейчас</h1>
-					<input class="for_order" type="text" placeholder="имя">
-					<input class="for_order" type="phone" placeholder="телефон">
-					<input class="for_order" type="email" placeholder="email">
+					<input class="for_order" name="name" type="text" placeholder="имя" required>
+					<input class="for_order" name="phone" type="phone" placeholder="телефон" required>
+					<input class="for_order" name="email" type="email" placeholder="email" required>
 					<button class="order">заказать</button>
 				</form>
 			</div>
@@ -283,8 +283,10 @@
 			</ul>
 		</nav>
 	</footer>
-	<img class="footer_img" src="img/footer.jpg" alt="footer">
-
+	<img class="footer_img" src="img/footer.jpg" alt="footer" max-width="1900px">
+	
+	<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="common.js"></script>
 </body>
 </html>
 
