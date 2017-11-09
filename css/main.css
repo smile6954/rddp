@@ -610,7 +610,7 @@ text-align: center;
 .contacs_us{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 43px;
+  margin-bottom: 48px;
 }
 input{
   display: block;
@@ -666,5 +666,8 @@ form {
 .socials a{
   height: 80px;
   margin-left: 80px;
+}
+h4{
+  text-transform: uppercase;
 }
 
